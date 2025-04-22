@@ -65,3 +65,21 @@ table {
 [hidden] {
   display: none !important;
 }
+
+/* Variables */
+:root {
+  /* Main colors */
+  --color-primary: #1f314f;
+  --color-secondary: #68778d;
+  --color-background: #d5e1ef;
+  --color-white: #fff;
+
+  /* Fonts */
+  --font-bold: normal normal bold 22px/120% "Outfit", sans-serif;
+  --font-regular: normal normal normal 15px/140% "Outfit", sans-serif;
+
+  /* Spacing */
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-500: 40px;
+}
