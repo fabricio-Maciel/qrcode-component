@@ -83,3 +83,60 @@ table {
   --spacing-300: 24px;
   --spacing-500: 40px;
 }
+
+/* main */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-background);
+}
+.container {
+  max-width: 320px;
+  background-color: var(--color-white);
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: var(--spacing-200);
+  border-radius: 20px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.04);
+
+  img {
+    border-radius: 10px;
+  }
+
+  h1 {
+    font: var(--font-bold);
+    text-align: center;
+    margin-top: var(--spacing-300);
+    color: var(--color-primary);
+  }
+
+  p {
+    margin-top: var(--spacing-200);
+    text-align: center;
+    font: var(--font-regular);
+    letter-spacing: 0.2px;
+    color: var(--color-secondary);
+  }
+}
+
+.footer-container {
+  display: block;
+  padding-left: var(--spacing-200);
+  padding-right: var(--spacing-200);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+
+  a {
+    text-decoration: underline;
+    color: var(--color-background);
+
+    &:hover {
+      color: var(--color-secondary);
+    }
+  }
+}
