@@ -113,6 +113,8 @@ body {
     text-align: center;
     margin-top: var(--spacing-300);
     color: var(--color-primary);
+    padding-left: var(--spacing-200);
+    padding-right: var(--spacing-200);
   }
 
   p {
@@ -121,6 +123,8 @@ body {
     font: var(--font-regular);
     letter-spacing: 0.2px;
     color: var(--color-secondary);
+    padding-left: var(--spacing-200);
+    padding-right: var(--spacing-200);
   }
 }
 
